@@ -25,9 +25,9 @@ body {
   height:5%;
   background-color: grey;
   color: white;
-  text-align: center;
-  
+  text-align: center; 
 }
+
 
 
 .topnav {
@@ -125,8 +125,7 @@ body {
 }
 
 @media screen and (max-width: 600px) {
-  .sidebar ul {display: none;}  
-  }
+  .sidebar ul {display: none;} 
 }
 
 @media screen and (max-width: 600px) {
@@ -141,23 +140,23 @@ body {
 /* Konten */
 
 .konten{
-  margin-top:49px;
-  margin-left:155px;
-  /* padding: 0 16px;    */
+  /* margin-top:49px;
+  margin-left:155px;    */
+  margin-top:70px;
+  margin-left:170px;   
   height:100%;
 }
 
 @media screen and (max-width: 600px) {
   .konten {
-    margin-left:0 ;
+    margin-left:0px ;
     padding : 0px;
     }  
   }
-}
 
 @media screen and (max-width: 600px) {
   .konten {
-    margin-left:0 ;
+    margin-left:0px ;
     padding : 0px;
     }  
   }
@@ -170,7 +169,11 @@ width:100%;
 
 .h1 judultengah{
 text-align:center;
+}
 
+.konten h1 judulkiri {
+  text-align:left;  
+  margin-left:+50px;
 }
 
 
@@ -224,4 +227,59 @@ div.desc {
   content: "";
   display: table;
   clear: both;
+}
+
+
+/* Form  */
+
+* {box-sizing: border-box;}
+
+input[type=text], select, textarea {
+  width: 100%;
+  padding: 12px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  box-sizing: border-box;
+  margin-top: 6px;
+  margin-bottom: 16px;
+  resize: vertical;
+}
+
+input[type=email], select, textarea {
+  width: 100%;
+  padding: 12px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  box-sizing: border-box;
+  margin-top: 6px;
+  margin-bottom: 16px;
+  resize: vertical;
+}
+
+input[type=submit] {
+  background-color: navy;
+  color: white;
+  padding: 12px 20px;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+input[type=submit]:hover {
+  background-color: navy;
+}
+
+.container {
+  border-radius: 5px;
+  background-color: #f2f2f2;
+  padding: 20px;
+}
+
+.kirim {
+  background-color: navy;
+  color: white;
+  padding: 12px 20px;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
 }
